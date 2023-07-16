@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-6xl/tight font-semibold text-pina-smoke-2;
+  }
+  h2 {
+    @apply text-5xl/tight font-semibold text-pina-smoke-2;
+  }
+  h3 {
+    @apply text-4xl/tight font-semibold text-pina-smoke-2;
+  }
+  h4 {
+    @apply text-3xl/tight font-semibold text-pina-smoke-2;
+  }
+  h5 {
+    @apply text-2xl/tight font-semibold text-pina-smoke-2;
+  }
+}
+
+.swiper-pagination {
+  position: absolute !important;
+  margin-bottom: 160px !important;
+}
