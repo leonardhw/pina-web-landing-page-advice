@@ -331,7 +331,7 @@ export default function RencanaDanaPendidikanAnak() {
               </button>
             </div>
             <Image
-              src='/static/images/pina-photo-high-resolution-real-human-asian-woman-ultra-realist-8-a-9-f-99-ad-9-d-0-d-47-db-894263-f-43-c-903-eaf-1.png'
+              src='/static/images/PINA_photo_high_resolution_real_human_asian_woman_ultra_realist_8a9f99ad-9d0d-47db-8942-63f43c903eaf-1.jpg'
               width={579}
               height={579}
               alt='cs PINA'

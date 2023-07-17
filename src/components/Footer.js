@@ -37,12 +37,15 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className=''>
-            <h5 className='mb-6 text-[1.75rem]'>Advisory</h5>
+          <div className='flex flex-col gap-2'>
+            <h5 className='mb-4 text-[1.75rem]'>Advisory</h5>
             <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
               Tabungan Dana Darurat
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href='/rencana-tabungan-pendidikan-anak'
+              className='mb-0.5 block font-bold leading-7 tracking-[0.2px]'
+            >
               Tabungan Dana Pendidikan
             </Link>
             <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
@@ -54,7 +57,10 @@ export default function Footer() {
             <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
               Perlindungan Asuransi
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href='/konsultan-manajemen-investasi'
+              className='mb-0.5 block font-bold leading-7 tracking-[0.2px]'
+            >
               Manajemen Investasi
             </Link>
             <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
@@ -62,9 +68,12 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className=''>
-            <h5 className='mb-6 text-[1.75rem]'>Financial Tools</h5>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+          <div className='flex flex-col gap-2'>
+            <h5 className='mb-4 text-[1.75rem]'>Financial Tools</h5>
+            <Link
+              href='/aplikasi-keuangan'
+              className='mb-0.5 block font-bold leading-7 tracking-[0.2px]'
+            >
               Aplikasi Keuangan
             </Link>
             <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
@@ -78,8 +87,8 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className=''>
-            <h5 className='mb-6 text-[1.75rem]'>Tentang PINA</h5>
+          <div className='flex flex-col gap-2'>
+            <h5 className='mb-4 text-[1.75rem]'>Tentang PINA</h5>
             <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
               About Us
             </Link>

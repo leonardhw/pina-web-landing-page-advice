@@ -5,7 +5,6 @@ export default function Accordion({
   icon = 'arrow',
   firstBorder = false,
 }) {
-  console.log(data, 'DATA');
   return (
     <div
       className='hs-accordion-group col-span-2'

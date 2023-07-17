@@ -25,7 +25,7 @@ export default function Header() {
         aria-label='Global'
       >
         <div className='flex items-center justify-between'>
-          <Link className='flex-none' href='#'>
+          <Link className='flex-none' href='/'>
             <Image className='h-8' src={headLogo} alt='Logo' />
           </Link>
           <div className='sm:hidden'>
