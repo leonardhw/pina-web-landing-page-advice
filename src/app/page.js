@@ -151,7 +151,7 @@ export default function Home() {
               >
                 <swiper-slide>
                   <Image
-                    src='/../public/static/images/jadwal-konsultasi-keuangan-pina.png'
+                    src='/static/images/jadwal-konsultasi-keuangan-pina.png'
                     height={100}
                     width={900}
                     alt=''
@@ -160,7 +160,7 @@ export default function Home() {
                 </swiper-slide>
                 <swiper-slide>
                   <Image
-                    src='/../public/static/images/sesi-konsultasi-keuangan-pina.png'
+                    src='/static/images/sesi-konsultasi-keuangan-pina.png'
                     height={100}
                     width={900}
                     alt=''
@@ -169,7 +169,7 @@ export default function Home() {
                 </swiper-slide>
                 <swiper-slide>
                   <Image
-                    src='/../public/static/images/laporan-konsultasi-keuangan-pina.png'
+                    src='/static/images/laporan-konsultasi-keuangan-pina.png'
                     height={100}
                     width={900}
                     alt=''

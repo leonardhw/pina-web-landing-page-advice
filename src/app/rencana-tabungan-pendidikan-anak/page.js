@@ -80,7 +80,7 @@ export default function RencanaDanaPendidikanAnak() {
 
         <div className='relative min-h-[500px] bg-pina-yellow-1'>
           <Image
-            src='/../public/static/images/rencana-tabungan-pendidikan-anak.png'
+            src='/static/images/rencana-tabungan-pendidikan-anak.png'
             width={1251}
             height={659}
             alt='rencana dana pendidikan anak'
