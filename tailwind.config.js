@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        '2.5xl': '1.75rem',
+      },
       borderRadius: {
         '2.5xl': '1.25rem',
       },
@@ -28,9 +31,11 @@ module.exports = {
           2: '#FED839',
           3: '#FBF99D',
           4: '#F7B313',
+          5: '#FFEA66',
         },
         'pina-green': {
           1: '#D7F0BF',
+          2: '#CEEEDF',
         },
       },
       boxShadow: {

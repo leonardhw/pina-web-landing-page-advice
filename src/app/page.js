@@ -25,7 +25,6 @@ export default function Home() {
     },
   ];
 
-  console.log(faqData, 'DARI HOME FAQ DATA');
   return (
     <main className=''>
       {/* Hero */}

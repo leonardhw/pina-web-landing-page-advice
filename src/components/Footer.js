@@ -114,8 +114,8 @@ export default function Footer() {
           <div className='flex flex-col gap-2'>
             <h5 className='mb-4 text-[1.75rem]'>Tentang PINA</h5>
             <Link
-              href=''
-              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+              href='/tentang-pina'
+              className='mb-0.5 block leading-7 tracking-[0.2px]'
             >
               About Us
             </Link>
