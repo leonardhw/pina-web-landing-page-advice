@@ -3,12 +3,12 @@ import Link from 'next/link';
 import React from 'react';
 
 export const metadata = {
-  title: 'Tentang PINA dan Cerita Dibalik Wealth Management Platform',
+  title: 'Harga Berlangganan Konsultasi dan Aplikasi Keuangan PINA',
   description:
-    'Siapa dan bagaimana PINA bisa hadir serta selalu siap membantu kamu lebih independen dalam finansial kini dan masa depan.',
+    'Temukan solusi finansial sesuai kebutuhan dan kondisi keuanganmu saat ini, PINA sediakan berbagai paket berlangganan untuk kemudahan akses dan aplikasi',
 };
 
-export default function TentangPina() {
+export default function Harga() {
   return (
     <main>
       <section className='bg-white py-24'>
@@ -133,7 +133,7 @@ export default function TentangPina() {
                 </Link>
               </div>
             </div>
-            <div className='overflow-hidden rounded-2.5xl bg-pina-purple-1'>
+            <div className='overflow-hidden rounded-2.5xl bg-pina-green-2'>
               <div className='aspect-[1.11]'>
                 <img
                   src='/static/images/christian-hermawan.jpg'
@@ -157,7 +157,7 @@ export default function TentangPina() {
                 </Link>
               </div>
             </div>
-            <div className='overflow-hidden rounded-2.5xl bg-pina-blue-1'>
+            <div className='overflow-hidden rounded-2.5xl bg-pina-green-2'>
               <div className='aspect-[1.11]'>
                 <img
                   src='/static/images/hendry-chou.jpg'
@@ -184,7 +184,7 @@ export default function TentangPina() {
                 </Link>
               </div>
             </div>
-            <div className='overflow-hidden rounded-2.5xl bg-pina-red-1'>
+            <div className='overflow-hidden rounded-2.5xl bg-pina-green-2'>
               <div className='aspect-[1.11]'>
                 <img
                   src='/static/images/fajar-kuntoro.jpg'
