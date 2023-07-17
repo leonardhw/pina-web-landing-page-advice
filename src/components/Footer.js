@@ -39,31 +39,46 @@ export default function Footer() {
 
           <div className='flex flex-col gap-2'>
             <h5 className='mb-4 text-[1.75rem]'>Advisory</h5>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               Tabungan Dana Darurat
             </Link>
             <Link
               href='/rencana-tabungan-pendidikan-anak'
-              className='mb-0.5 block font-bold leading-7 tracking-[0.2px]'
+              className='mb-0.5 block leading-7 tracking-[0.2px]'
             >
               Tabungan Dana Pendidikan
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               Rencana Pensiun
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               Rencana Beli Rumah
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               Perlindungan Asuransi
             </Link>
             <Link
               href='/konsultan-manajemen-investasi'
-              className='mb-0.5 block font-bold leading-7 tracking-[0.2px]'
+              className='mb-0.5 block leading-7 tracking-[0.2px]'
             >
               Manajemen Investasi
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               Manajemen Utang
             </Link>
           </div>
@@ -72,27 +87,42 @@ export default function Footer() {
             <h5 className='mb-4 text-[1.75rem]'>Financial Tools</h5>
             <Link
               href='/aplikasi-keuangan'
-              className='mb-0.5 block font-bold leading-7 tracking-[0.2px]'
+              className='mb-0.5 block leading-7 tracking-[0.2px]'
             >
               Aplikasi Keuangan
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href='/aplikasi-investasi'
+              className='mb-0.5 block leading-7 tracking-[0.2px]'
+            >
               Aplikasi Investasi
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               Kalkulator Dana Darurat
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               Kalkulator Dana Pensiun
             </Link>
           </div>
 
           <div className='flex flex-col gap-2'>
             <h5 className='mb-4 text-[1.75rem]'>Tentang PINA</h5>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               About Us
             </Link>
-            <Link href='' className='mb-0.5 block leading-7 tracking-[0.2px]'>
+            <Link
+              href=''
+              className='mb-0.5 block leading-7 tracking-[0.2px] text-gray-300'
+            >
               Pricing
             </Link>
           </div>
