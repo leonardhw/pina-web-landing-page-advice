@@ -9,7 +9,7 @@ export const metadata = {
     'PINA memberikan kontrol penuh atas keuangan Anda. Solusi lengkap atur uang mulai dari budgeting, cash flow, hitung net worth dan financial checkup rutin.',
 };
 
-export default function KonsultanManajemenInvestasi() {
+export default function AplikasiKeuangan() {
   const faqData = [
     {
       question: 'Bagaimana aplikasi PINA membantu dalam mengelola anggaran?',
