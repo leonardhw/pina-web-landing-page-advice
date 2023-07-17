@@ -37,6 +37,15 @@ module.exports = {
           1: '#D7F0BF',
           2: '#CEEEDF',
         },
+        'pina-purple': {
+          1: '#EAD4FF'
+        },
+        'pina-blue': {
+          1: '#CDD8FF'
+        },
+        'pina-red': {
+          1: '#FBD1BE'
+        }
       },
       boxShadow: {
         card: '0px 4px 16px 0px rgba(0, 0, 0, 0.12);',
