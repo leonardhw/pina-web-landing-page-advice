@@ -1,4 +1,5 @@
 import Accordion from '@/components/Accordion';
+import HubungiPina from '@/components/HubungiPina';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -348,25 +349,7 @@ export default function AplikasiInvestasi() {
 
       <section className='bg-white py-24'>
         <div className='mx-auto max-w-7xl pb-24 max-2xl:px-4'>
-          <div className='flex overflow-hidden rounded-[40px] bg-pina-yellow-1'>
-            <div className='flex flex-col items-start justify-between gap-8 px-12 py-8'>
-              <h1>Ada Pertanyaan Lagi?</h1>
-              <p className='max-w-lg text-[1.25rem] font-normal leading-normal text-pina-smoke-1'>
-                Hubungi Tim PINA dan dapatkan panduan lengkap mengenai produk
-                PINA di +628-1110-8823-456 atau email ke hello@pina.id
-              </p>
-              <button className='mb-24 mt-auto rounded-lg bg-pina-smoke-1 px-6 py-4 text-[1.625rem] font-bold leading-snug text-white'>
-                Hubungi PINA
-              </button>
-            </div>
-            <Image
-              src='/static/images/PINA_photo_high_resolution_real_human_asian_woman_ultra_realist_8a9f99ad-9d0d-47db-8942-63f43c903eaf-1.jpg'
-              width={579}
-              height={579}
-              className=''
-              alt='cs PINA'
-            />
-          </div>
+          <HubungiPina cs='csWomanOne' />
         </div>
       </section>
     </main>

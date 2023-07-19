@@ -1,10 +1,16 @@
 import React from 'react';
-import csManOne from '/static/images/cs/2.jpg';
-import csWomanOne from '/static/images/cs/1.jpg';
-import csWomanTwo from '/static/images/cs/3.jpg';
-import csWomanThree from '/static/images/cs/4.jpg';
+import csManOne from '../../public/static/images/cs/2.jpg';
+import csWomanOne from '../../public/static/images/cs/1.jpg';
+import csWomanTwo from '../../public/static/images/cs/3.jpg';
+import csWomanThree from '../../public/static/images/cs/4.jpg';
+import Image from 'next/image';
 
-export default function HubungiPina() {
+export default function HubungiPina({ cs = 'csWomanOne' }) {
+  let src = cs;
+  if (cs === 'csManOne') src = csManOne;
+  if (cs === 'csWomanOne') src = csWomanOne;
+  if (cs === 'csWomanTwo') src = csWomanTwo;
+  if (cs === 'csWomanThree') src = csWomanThree;
   return (
     <div className='flex overflow-hidden rounded-[40px] bg-pina-yellow-1'>
       <div className='flex flex-col items-start justify-between gap-8 px-12 py-8'>
@@ -17,12 +23,7 @@ export default function HubungiPina() {
           Hubungi PINA
         </button>
       </div>
-      <Image
-        src='/static/images/cs/4.jpg'
-        width={579}
-        height={579}
-        alt='cs PINA'
-      />
+      <Image src={src} width={579} height={579} alt='cs PINA' />
     </div>
   );
 }
