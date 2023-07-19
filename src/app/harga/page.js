@@ -1,4 +1,5 @@
 import Accordion from '@/components/Accordion';
+import HubungiPina from '@/components/HubungiPina';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -96,9 +97,309 @@ export default function Harga() {
         </div>
       </section>
 
-      <section className='bg-white py-12'>
+      <section className='bg-white pb-24 pt-12'>
         <div className='mx-auto max-w-7xl max-2xl:px-4'>
           <h1 className='text-center text-pina-smoke-1'>SUBSCRIPTION PLAN</h1>
+          <table className='mt-8 min-w-full '>
+            <thead>
+              <tr className='border-b border-black/[0.2]'>
+                <th
+                  scope='col'
+                  className='mx-auto px-6 py-4 text-center text-2xl font-semibold capitalize text-pina-smoke-2'
+                ></th>
+                <th
+                  scope='col'
+                  className='mx-auto px-6 py-4 text-center text-2xl font-semibold capitalize text-pina-smoke-2'
+                >
+                  Free
+                </th>
+                <th
+                  scope='col'
+                  className='mx-auto px-6 py-4 text-center text-2xl font-semibold capitalize text-pina-smoke-2'
+                >
+                  Premium
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th
+                  colSpan={3}
+                  className='px-6 pb-4 pt-8 text-left text-2.5xl font-semibold uppercase leading-normal text-pina-smoke-1'
+                >
+                  Advisory
+                </th>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Akses Konsultan Keuangan Pribadi
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-x-dark.svg'
+                    width={28}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Perencanaan dan Manajemen Investasi
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-x-dark.svg'
+                    width={28}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Perencanaan Pensiun
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-x-dark.svg'
+                    width={28}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Perencanaan Asuransi
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-x-dark.svg'
+                    width={28}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Perencanaan Pendidikan
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-x-dark.svg'
+                    width={28}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Analisis dan Optimasi Cash Flow
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-x-dark.svg'
+                    width={28}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Strategi Manajemen Utang
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-x-dark.svg'
+                    width={28}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th
+                  colSpan={3}
+                  className='px-6 pb-4 pt-8 text-left text-2.5xl font-semibold leading-normal text-pina-smoke-1'
+                >
+                  Financial Tools
+                </th>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Pencatatan dan Pemantauan Kekayaan
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Alat Budgeting
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Pemantauan Tujuan Keuangan
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th
+                  colSpan={3}
+                  className='px-6 pb-4 pt-8 text-left text-2.5xl font-semibold leading-normal text-pina-smoke-1'
+                >
+                  Investment
+                </th>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Berinvestasi di Reksadana dan Saham
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+              <tr className='border-b border-black/[0.2]'>
+                <th className='px-6 py-4 text-left text-2xl font-normal leading-normal text-pina-smoke-1'>
+                  Investasi Otomatis
+                </th>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+                <td>
+                  <Image
+                    src='/static/images/stamp-check-dark.svg'
+                    width={32}
+                    height={32}
+                    className='mx-auto'
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
 
@@ -300,7 +601,7 @@ export default function Harga() {
 
       <section className='bg-white py-24'>
         <div className='mx-auto max-w-7xl pb-24 max-2xl:px-4'>
-          
+          <HubungiPina cs='csWomanThree' />
         </div>
       </section>
     </main>

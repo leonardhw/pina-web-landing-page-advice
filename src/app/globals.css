@@ -4,19 +4,19 @@
 
 @layer base {
   h1 {
-    @apply text-6xl/tight font-semibold text-pina-smoke-1;
+    @apply text-4xl/tight font-semibold text-pina-smoke-1 sm:text-6xl/tight;
   }
   h2 {
-    @apply text-5xl/tight font-semibold text-pina-smoke-1;
+    @apply text-3xl/tight font-semibold text-pina-smoke-1 sm:text-5xl/tight;
   }
   h3 {
-    @apply text-4xl/tight font-semibold text-pina-smoke-1;
+    @apply text-2xl/tight font-semibold text-pina-smoke-1 sm:text-4xl/tight;
   }
   h4 {
-    @apply text-3xl/tight font-semibold text-pina-smoke-1;
+    @apply text-xl/tight font-semibold text-pina-smoke-1 sm:text-3xl/tight;
   }
   h5 {
-    @apply text-2xl/tight font-semibold text-pina-smoke-1;
+    @apply text-lg/tight font-semibold text-pina-smoke-1 sm:text-2xl/tight;
   }
 }
 
