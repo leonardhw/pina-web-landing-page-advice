@@ -209,10 +209,10 @@ export default function Home() {
                     </h5>
                     <br />
                     <Link
-                      href='/'
-                      className='text-2xl font-normal leading-normal text-pina-yellow-1 underline'
+                      href='/aplikasi-keuangan'
+                      className='border-b-2 border-pina-yellow-1 text-2xl font-bold leading-normal text-pina-yellow-1 hover:border-pina-yellow-4 hover:text-pina-yellow-4'
                     >
-                      Pelajari Selengkapnya
+                      Pelajari Selengkapnya &gt;&gt;
                     </Link>
                   </li>
                   <br />
@@ -224,34 +224,52 @@ export default function Home() {
                     </h5>
                     <br />
                     <Link
-                      href='/'
-                      className='text-2xl font-normal leading-normal text-pina-yellow-1 underline'
+                      href='/aplikasi-investasi'
+                      className='border-b-2 border-pina-yellow-1 text-2xl font-bold leading-normal text-pina-yellow-1 hover:border-pina-yellow-4 hover:text-pina-yellow-4'
                     >
-                      Pelajari Selengkapnya
+                      Pelajari Selengkapnya &gt;&gt;
                     </Link>
                   </li>
                 </ul>
+                <div className='mt-12 flex items-center gap-4 pl-6'>
+                  <Link href='https://www.youtube.com'>
+                    <Image
+                      src='/static/images/app-store-download.png'
+                      width={150}
+                      height={44}
+                      alt='appstore download'
+                    />
+                  </Link>
+                  <Link href='https://google.com'>
+                    <Image
+                      src='/static/images/gplay-download-1.png'
+                      width={150}
+                      height={44}
+                      alt='playstore download'
+                    />
+                  </Link>
+                </div>
               </div>
               <div className='relative min-h-[1150px]'>
                 <Image
                   src='/static/images/aplikasi-manajemen-keuangan-pina.png'
                   width={632}
                   height={30}
-                  alt=''
+                  alt='fitur manajemen keuangan pina'
                   className='absolute -left-20 top-0'
                 />
                 <Image
                   src='/static/images/grafik-portofolio-investasi.png'
                   width={256}
                   height={30}
-                  alt=''
+                  alt='alokasi pengeluaran pina'
                   className='top-30 absolute right-0 top-28'
                 />
                 <Image
-                  src='/static/images/investasi-di-pina.png'
+                  src='/static/images/investasi-di-pina-group.png'
                   width={968}
                   height={30}
-                  alt=''
+                  alt='grafik portofolio investasi'
                   className='top-30 absolute bottom-0 left-0'
                 />
               </div>
