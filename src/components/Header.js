@@ -17,8 +17,8 @@ export default function Header() {
   return (
     <header
       className={`sticky ${
-        !top ? `py-1 shadow-header` : 'py-4'
-      } top-0 z-50 flex w-full flex-wrap bg-white text-sm transition-all delay-200 duration-500 dark:bg-gray-800 sm:flex-nowrap sm:justify-start`}
+        !top && `shadow-header`
+      } top-0 z-50 flex w-full flex-wrap bg-white py-4 text-sm transition-all delay-200 duration-500 dark:bg-gray-800 sm:flex-nowrap sm:justify-start`}
     >
       <nav
         className='mx-auto w-full max-w-7xl max-2xl:px-4 sm:flex sm:items-center sm:justify-between'
@@ -64,9 +64,9 @@ export default function Header() {
         {/* Links */}
         <div
           id='navbar-image-2'
-          className='hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 sm:block'
+          className='hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 max-sm:mt-8 sm:block'
         >
-          <div className='flex flex-col gap-8 py-2 pr-2 font-semibold text-pina-smoke-2 sm:mt-0 sm:flex-row  sm:items-center sm:justify-end sm:pl-5'>
+          <div className='flex flex-col gap-8 py-2 pr-2 font-semibold text-pina-smoke-2 sm:mt-0 sm:flex-row sm:items-center sm:justify-end  sm:gap-4 sm:pl-5 md:gap-8'>
             <Link className='hover:text-pina-yellow-2' href='#'>
               Solusi
             </Link>

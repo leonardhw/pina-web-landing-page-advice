@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className='relative min-h-[500px] bg-pina-smoke-4 py-24'>
       <div className='mx-auto max-w-7xl max-2xl:px-4'>
-        <div className='grid gap-8 md:grid-cols-5'>
+        <div className='grid grid-cols-1 gap-8 md:grid-cols-5'>
           <div className=''>
             <Image src={headLogo} width={200} height={200} alt='pina logo' />
             <div className='-ml-2 mt-6 inline-flex items-center gap-4'>
@@ -127,7 +127,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className=''>
+          <div className='mb-8'>
             <h5 className='mb-6 text-[1.75rem]'>Download</h5>
             <div className='flex flex-col gap-4'>
               <Link href='https://google.com'>

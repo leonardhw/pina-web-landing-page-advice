@@ -28,7 +28,7 @@ export default function Accordion({
             {icon === 'arrow' && (
               <>
                 <svg
-                  className='block h-6 w-6 text-gray-600 group-hover:text-gray-500 hs-accordion-active:hidden hs-accordion-active:text-pina-smoke-2 hs-accordion-active:group-hover:text-pina-smoke-2 dark:text-gray-400'
+                  className='block h-6 w-6 shrink-0 text-gray-600 group-hover:text-gray-500 hs-accordion-active:hidden hs-accordion-active:text-pina-smoke-2 hs-accordion-active:group-hover:text-pina-smoke-2 dark:text-gray-400'
                   width='16'
                   height='16'
                   viewBox='0 0 16 16'
@@ -43,7 +43,7 @@ export default function Accordion({
                   />
                 </svg>
                 <svg
-                  className='hidden h-6 w-6 text-gray-600 group-hover:text-gray-500 hs-accordion-active:block hs-accordion-active:text-pina-smoke-2 hs-accordion-active:group-hover:text-pina-smoke-2 dark:text-gray-400'
+                  className='hidden h-6 w-6 shrink-0 text-gray-600 group-hover:text-gray-500 hs-accordion-active:block hs-accordion-active:text-pina-smoke-2 hs-accordion-active:group-hover:text-pina-smoke-2 dark:text-gray-400'
                   width='16'
                   height='16'
                   viewBox='0 0 16 16'
@@ -62,7 +62,7 @@ export default function Accordion({
             {icon === 'plus' && (
               <>
                 <svg
-                  class='block h-6 w-6 text-gray-600 group-hover:text-gray-500 hs-accordion-active:hidden hs-accordion-active:text-pina-smoke-2 hs-accordion-active:group-hover:text-pina-smoke-2 dark:text-gray-400'
+                  class='block h-6 w-6 shrink-0 text-gray-600 group-hover:text-gray-500 hs-accordion-active:hidden hs-accordion-active:text-pina-smoke-2 hs-accordion-active:group-hover:text-pina-smoke-2 dark:text-gray-400'
                   width='16'
                   height='16'
                   viewBox='0 0 16 16'
@@ -83,7 +83,7 @@ export default function Accordion({
                   />
                 </svg>
                 <svg
-                  class='hidden h-6 w-6 text-gray-600 group-hover:text-gray-500 hs-accordion-active:block hs-accordion-active:text-pina-smoke-2 hs-accordion-active:group-hover:text-pina-smoke-2 dark:text-gray-400'
+                  class='hidden h-6 w-6 shrink-0 text-gray-600 group-hover:text-gray-500 hs-accordion-active:block hs-accordion-active:text-pina-smoke-2 hs-accordion-active:group-hover:text-pina-smoke-2 dark:text-gray-400'
                   width='16'
                   height='16'
                   viewBox='0 0 16 16'
